@@ -32,9 +32,15 @@ a.menu-logo {
 	margin-left: 10px;
 }
 
+a.menu-logo img {
+    width: 75px;
+    height: 75px;
+}
+
 .menu-nav {
 	float: right;
 	margin-right: 10px;
+    margin-top: 18px;
 }
 
 .menu-nav li {
