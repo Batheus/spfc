@@ -141,3 +141,82 @@ a.menu-logo img {
 	margin: 20px auto;
 	max-width: 460px;
 }
+
+/* Cores */
+
+.cores {
+	background: #c9c6bb;
+	padding: 60px 0;
+	border-top: 3px solid #d6d3c8;
+	border-bottom: 3px solid #d6d3c8;
+}
+
+.cores-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.cores-container::before, .cores-container::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.cores-item {
+	width: 300px;
+	float: left;
+	margin: 0 10px 20px 10px;
+}
+
+.cores-item h2 {
+	text-align: center;
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+.cores-item h2::before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: currentColor;
+	border-radius: 50%;
+	margin: 20px auto;
+	border: 5px solid #c9c6bb;
+	box-shadow: 0 0 0 10px currentColor;
+}
+
+h2.cor1::before {
+	color: #D7181F;
+}
+
+h2.cor2::before {
+	color: #000000;
+}
+
+h2.cor3::before {
+	color: #FFFFFF;
+}
+
+.cores-item p {
+	font-size: 0.875em;
+	line-height: 1.4em;
+}
+
+.cores-btn {
+	width: 180px;
+	border: 3px solid;
+	color: #252525;
+	text-decoration: none;
+	display: block;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 0;
+	margin: 20px auto 0 auto;
+}
+
+.cores-btn:hover {
+	color: #FFFFFF;
+}
