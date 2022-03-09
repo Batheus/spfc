@@ -220,3 +220,62 @@ h2.cor3::before {
 .cores-btn:hover {
 	color: #FFFFFF;
 }
+
+/* Conquistas */
+
+.conquistas {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.conquistas-item {
+	clear: both;
+	margin: 50px auto;
+	/* ClearFix: Forma 2 - Corta elementos sobressalentes, não é o ideal usar
+	overflow: hidden; */
+}
+	/* ClearFix: Forma 1 - Ideal */
+.conquistas-item::after, .conquistas-item::before {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.conquistas-item img{
+	width: 460px;
+	display: block;
+	float: left;
+	margin: 0 10px;
+}
+
+.conquistas-item > div {
+	width: 460px;
+	float: left;
+	margin: 0 10px;
+}
+
+.conquistas h2 {
+	font-size: 2.25em;
+}
+
+.conquistas-item h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+.conquistas-item p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	max-width: 440px;
+	margin-bottom: 40px;
+}
+
+.conquistas-item a {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid;
+	color: #252525;
+	padding: 10px 20px;
+}
